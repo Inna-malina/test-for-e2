@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма для Е2Е4</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="form-wrapper">
+    <form action="post" class="form-box">
+      <p class="input-box">
+        <label class="label " for="name">Ваше имя <span class="label-name"></span></label>
+        <input class="input name" id="name" name="name" type="text" required autocomplete="off" data-flag="false">
+      </p>
+      <p class="input-box">
+        <label class="label" for="surname">Ваша фамилия <span class="label-surname"></span></label>
+        <input class="input surname" id="surname" name="surname" type="text" required autocomplete="off"
+          data-flag="false">
+      </p>
+      <p class="input-box">
+        <label class="label" for="mail">E-mail <span class="label-mail"></span></label>
+        <input class="input mail" id="mail" name="mail" type="text" required autocomplete="off" data-flag="false">
+      </p>
+      <p class="input-box">
+        <label class="label" for="password">Пароль <span class="label-pass"></span></label>
+        <input class="input password" id="password" name="password" type="password" required autocomplete="off"
+          data-flag="false">
+      </p>
+      <p class="input-box">
+        <label class="label" for="passTwo">Подтверждение пароля <span class="label-passTwo"></span></label>
+        <input class="input password-two" id="passTwo" name="passTwo" type="text" required autocomplete="off"
+          data-flag="false">
+      </p>
+      <p class="input-box">
+        <label class="label" for="date">Дата рождения <span class="label-date"></span></label>
+        <input class="input date" id="date" name="date" type="date" required autocomplete="off" data-flag="false">
+      </p>
+      <div class="button-box">
+        <button class="button-submit" type="submit" disabled>Отправить</button>
+        <button class="button-reset" type="reset">Очистить форму</button>
+      </div>
+
+
+    </form>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
